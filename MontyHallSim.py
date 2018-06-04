@@ -1,7 +1,7 @@
 import numpy as np 
 
-doors=np.array([[1,0,0],[0,1,0],[0,0,1]])#all door configs (these were hard-coded in since there are only 3C2=3 of them)
-montyschoice=np.array([[1,2],[0,2],[0,1]])#the doors available for Monty to open 
+doors=np.array([[1,0,0],[0,1,0],[0,0,1]]) #all door configs (these were hard-coded in since there are only 3C2=3 of them)
+montyschoice=np.array([[1,2],[0,2],[0,1]]) #the doors available for Monty to open 
 tallywin=0 #wins if not switching
 tallyloss=0 #losses if not switching
 
